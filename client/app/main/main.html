@@ -1,28 +1,87 @@
-<header class="hero-unit" id="banner">
-  <div class="container">
-    <h1>'Allo, 'Allo!</h1>
-    <p class="lead">Kick-start your next web app with Angular Fullstack</p>
-    <img src="assets/images/yeoman.png" alt="I'm Yeoman">
-  </div>
-</header>
-
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="page-header">Features:</h1>
-      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="thing in $ctrl.awesomeThings">
-        <li><a href="#" uib-tooltip="{{thing.info}}">{{thing.name}}<button type="button" class="close" ng-click="$ctrl.deleteThing(thing)">&times;</button></a></li>
-      </ul>
+      <h1 class="page-header">Kids Count in Alachua County</h1>
+      <p>Kids Count is a 501(c)3 nonprofit organization that provides a free after school program for kindergarten through 3rd grade students in low performing elementary schools in Gainesville, Florida.</p>
+
+      <br>
+
+      <p><b>Our vision is to...</b></p>
+      <ul>
+      	<li>Provide an opportunity for students who need extra support in the community to succeed in school and life</li>
+		<li>Partner with schools, churches, organizations, & businesses to offer a highly effective program</li>
+		<li>Inspire hope, enhance learning, and improve self-confidence while building social skills & concern for others</li>
+		<li>Provide qualified staff, volunteers, and expertise for the program</li>
+	   </ul>
+
+		<br>
+
+		<p><b>We focus on three areas:</b> Academics, Social Skill Development, and Enrichment</p>
+		<ol>
+			<li><b>Academics:</b>
+				<ul>
+					<li><b>Math and Literacy Tutoring</b> - For one hour, twice a week, students work one-on-one with the University of Florida's College of Education tutors on math and literacy literacy skills. Each lesson is specifically designed for our student's individual needs.</li>
+					<li><b>Homework Help</b> - Students are tutored one-on-one or in small groups with homework and supplemented with enrichment activities if they have no homework or get finished early.</li>
+				</ul>
+			</li>
+			<li><p><b>Social Skill Development:</b></p>
+			<p> We teach one character trait a month through practice and reinforcement.  We creatively combine our Friday enrichment activities to go along with our traits.</p>
+			</li>
+			<li><p><b>Friday Enrichment:</b></p>
+			<p> We reach out to the community by inviting guests or going on field trips. This provides fun learning experiences that our students may not otherwise have.</p>
+			</li>
+		</ol>
+
+		<br>
+
+		<p><b>Locations and Hours:</b></p>
+		<p>We are now serving 50 students in grades K-3 (20 from Rawlings and 30 from Williams). Reaching more students has always been and will continue to be our goal.</p>
+
+      
     </div>
+
+    <br>
+
+    <div class="col-md-6">
+      <p><b>Site 1: Serving Rawlings Elementary K-3 Students</b></p>
+      <p>Faith Mission</p>
+	  <p>3701 NE 15th St.</p>
+	  <p>Gainesville, FL 32609</p>
+	  <p>(352) 244-9723</p>
+	  <br>
+	  <p>Executive Director: Bill Hutchinson</p>
+	  <p>E-mail: Bill.KidsCount@gmail.com</p>
+	  <br>
+	  <p>Program Director:  Keri O'Neil</p>
+	  <p>E-mail: Keri.kidscount@gmail.com</p>
+	  <br>
+	  <p><b><u>Hours of Operation:</u></b></p>
+	  <p>Tuesdays: 2:45-5:45</p>
+	  <p>Thursdays: 2:45-5:45</p>
+	  <p>Fridays: 1:30-5:00</p>
+    </div>
+    <div class="col-md-6">
+      <p><b>Site 2: Serving Williams Elementary K-3 Students</b></p>
+      <p>Early Learning Academy at Duval</p>
+	  <p>2106 NE 8th Avenue</p>
+	  <p>Gainesville, FL 32641</p>
+	  <p>(352) 281-2144</p>
+	  <br>
+	  <p>Program Director: Kristan Kolb Ellison</p>
+	  <p>E-mail: Kristan.KidsCount@gmail.com </p>
+	  <br>
+	  <p>Program Assistants:</p>
+	  <p>Kervins Clement and Lithza Lorenzo-Pollas</p>
+	  <br>
+	  <p><b><u>Hours of Operation:</u></b></p>
+	  <p>Monday: 1:45 - 5:00</p>
+	  <p>Tuesday: 1:45 - 5:00</p>
+	  <p>Wednesday: 12:30 - 4:00</p>
+	  <p>Thursday: 1:45 - 5:00</p>
+	  <p>Friday: 1:45 - 5:00</p>
+    </div>
+
+
   </div>
 
-  <form class="thing-form">
-    <label>Syncs in realtime across clients</label>
-    <p class="input-group">
-      <input type="text" class="form-control" placeholder="Add a new thing here." ng-model="$ctrl.newThing">
-      <span class="input-group-btn">
-        <button type="submit" class="btn btn-primary" ng-click="$ctrl.addThing()">Add New</button>
-      </span>
-    </p>
-  </form>
 </div>

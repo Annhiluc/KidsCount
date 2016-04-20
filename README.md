@@ -1,4 +1,5 @@
-# kids-count
+# Kids Count
+A web application for Kids Count!
 
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.4.2.
 

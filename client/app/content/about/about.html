@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">About Us</h1>
+
+      <p><b>Why was Kids Count created?</b></p>
+      <p>Kids Count was founded in 2007 by a group of concerned citizens. The founders learned that almost half of lower income Alachua County students were not graduating on time and they learned the majority of these children were concentrated in five elementary schools - Rawlings, Williams, Duval, Metcalf, and Lake Forest.  Their idea? Build a highly effective after school program that is sustainable and can be easily duplicated to serve children in each of these schools. </p>
+
+      <br>
+
+      <p><b>What makes Kids Count unique?</b></p>
+      <ol>
+      	<li>It's local.</li>
+     	<li>80% is funded by individuals or families.</li>
+     	<li>We focus on the whole child.</li>
+     	<li>We embrace the concept, "from cradle to college/career" by collaborating with other organizations who support children and their families both before Kids count and afterwards. These collaborations, over time, will give us the best chance in making a long term positive impact.</li>
+     	<li>We help students maintain or improve reading levels so everyone is on or above grade level while also supporting them with homework so they will not be retained. These are two major concerns for the schools we work with.</li>
+     	<li>We teach them social skills so they can be the best citizens and care for others.
+     	We guide parents to community resources and services to help with undiagnosed or untreated conditions. We are huge child advocates and when we find a solution to a problem, we follow through with guidance and support.</li>
+     	<li>Our program is unique and special because of the collaboration that happens between our staff, students, parents, teachers, tutors, volunteers, donors, Master Gardener, and Board Members. We are a fearless group of people who have heart, drive, and willpower to get things done so our students can succeed and thrive.</li>
+      </ol>
+
+      <br>
+      <p><b>Who are the students?</b></p>
+      <ol>
+      	<li>We serve 50 students in grades Kindergarten through Third grade and try to have an equal distribution according to gender.</li>   
+     	<li>We work with a diverse group of students including maturity levels, personalities, behaviors, and cover the spectrum of academic levels including struggling, average, as well as gifted students. </li>
+      </ol>
+
+      <br>
+
+      <h2>Board of Directors</h2>
+      <div ng-repeat="member in boardMembers">
+      	<p><b>{{ member.name }}</b>, {{ member.position }}</p>
+      	<p><i>{{ member.description }}</i></p>
+      	<p>{{ member.phone }}</p>
+      	<p>{{ member.email }}</p>
+      	<hr>
+      </div>
+
+      <br>
+
+      <h2>Education Staff</h2>
+      <div ng-repeat="member in staffMembers">
+      	<p><b>{{ member.name }}, {{ member.position }}</b></p>
+      	<p>{{ member.phone }}</p>
+      	<p>{{ member.email }}</p>
+      	<hr>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
