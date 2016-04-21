@@ -4,3 +4,12 @@ footer.footer {
   margin-top: 70px;
   border-top: 1px solid #E5E5E5;
 }
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
