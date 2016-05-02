@@ -4,10 +4,11 @@
 
 'use strict';
 
-import errors from './components/errors';
-import path from 'path';
+var errors = require('./components/errors');
+var path = require('path');
+var favicon = require('serve-favicon');
 
-export default function(app) {
+module.exports = function(app) {
   // Insert routes below
   app.use('/api/users', require('./api/user'));
 
@@ -19,7 +20,7 @@ export default function(app) {
 
   // All other routes should redirect to the index.html
   app.route('/*')
-    .get((req, res) => {
+    .get(function(req, res) => {
       res.sendFile(path.resolve(app.get('appPath') + '/index.html'));
     });
 }
