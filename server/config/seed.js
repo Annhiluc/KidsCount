@@ -4,8 +4,8 @@
  */
 
 'use strict';
-import Thing from '../api/thing/thing.model';
-import User from '../api/user/user.model';
+var Thing = require('../api/thing/thing.model');
+var User = require('../api/user/user.model');
 
 Thing.find({}).remove()
   .then(() => {
