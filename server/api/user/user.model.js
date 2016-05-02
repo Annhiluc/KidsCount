@@ -1,7 +1,7 @@
 'use strict';
 
 import crypto from 'crypto';
-import mongoose from 'mongoose';
+var mongoose = require('mongoose')
 mongoose.Promise = require('bluebird');
 import {Schema} from 'mongoose';
 

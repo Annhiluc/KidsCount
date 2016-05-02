@@ -1,6 +1,6 @@
 'use strict';
 
-import mongoose from 'mongoose';
+var mongoose = require('mongoose')
 
 var ThingSchema = new mongoose.Schema({
   name: String,
