@@ -1,6 +1,6 @@
 'use strict';
 
-import crypto from 'crypto';
+var crypto = require('crypto');
 var mongoose = require('mongoose')
 mongoose.Promise = require('bluebird');
 import {Schema} from 'mongoose';
@@ -223,4 +223,4 @@ UserSchema.methods = {
   }
 };
 
-export default mongoose.model('User', UserSchema);
+module.exports = mongoose.model('User', UserSchema);
