@@ -3,7 +3,7 @@
 // Production specific configuration
 // =================================
 module.exports = {
-  // Server IP
+  /*// Server IP
   ip:     process.env.OPENSHIFT_NODEJS_IP ||
           process.env.IP ||
           undefined,
@@ -20,5 +20,13 @@ module.exports = {
           process.env.OPENSHIFT_MONGODB_DB_URL +
           process.env.OPENSHIFT_APP_NAME ||
           'mongodb://localhost/kidscount'
-  }
+  }*/
+
+  // MongoDB connection options
+  mongo: {
+    uri: 'mongodb://dev:dev@ds015760.mlab.com:15760/kids-count'
+  },
+
+  // Seed database on startup
+  seedDB: true
 };
