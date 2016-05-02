@@ -3,7 +3,6 @@
 var crypto = require('crypto');
 var mongoose = require('mongoose')
 mongoose.Promise = require('bluebird');
-import {Schema} from 'mongoose';
 
 const authTypes = ['github', 'twitter', 'facebook', 'google'];
 
