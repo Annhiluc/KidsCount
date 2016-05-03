@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('kidsCountApp')
-  .controller('NavbarController', ['$scope', function($scope){
+  .controller('NavbarController', ['$scope', 'Auth', function($scope, Auth){
     $scope.menu = [{
       'title': 'Home',
       'state': 'main'
