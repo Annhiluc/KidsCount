@@ -12,7 +12,6 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // bower:js
-      // endbower
       'client/bower_components/bootstrap-social/bootstrap-social.css',
       'client/bower_components/bootstrap/dist/css/boostrap.css',
       'client/bower_components/jquery/dist/jquery.js',
@@ -25,6 +24,7 @@ module.exports = function(config) {
       'client/bower_components/angular-socket-io/socket.js',
       'client/bower_components/angular-validation-match/dist/angular-validation-match.min.js',
       'client/bower_components/angular-ui-router/release/angular-ui-router.js',
+      // endbower
       'node_modules/socket.io-client/socket.io.js',
       'client/app/app.js',
       'client/{app,components}/**/*.module.js',
