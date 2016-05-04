@@ -23,5 +23,10 @@ angular.module('kidsCountApp')
 
     $scope.request = {};
 
+    $scope.sendContactRequest = function(){
+      //Handle sending email
+
+    }
+
     
   }]);
