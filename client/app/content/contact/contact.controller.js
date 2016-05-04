@@ -21,5 +21,7 @@ angular.module('kidsCountApp')
     	email: "kristan.kidscount@gmail.com"
     }];
 
+    $scope.request = {};
+
     
   }]);

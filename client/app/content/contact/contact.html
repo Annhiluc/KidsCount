@@ -14,7 +14,18 @@
       
       <div class="col-md-6">
       	<p>If you would like to learn more about how to impact a child's future please fill out this brief form and someone will be back with you soon.</p>
-      	<form></form>
+      	<form id="contactUsForm" ng-submit="sendContactRequest()">
+          <input placeholder="Name" id="name" ng-model="request.name" type="text" class="validate" required>
+          <input placeholder="Business Name" id="business_name" ng-model="request.businessName" type="text"  class="validate" required>
+          <input placeholder="Email" id="email" ng-model="request.email" type="email" class="validate" required>
+          <input placeholder="Phone" id="phone" ng-model="request.phone" type="tel"  class="validate" required>
+          <input placeholder="Additional Information" id="information" ng-model="request.information" type="text" class="validate">
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-4">
+                <button type="submit-btn" class="btn btn btn-primary submit">Submit</button>
+            </div>
+          </div>
+      </form>
       </div>
       
     </div>
