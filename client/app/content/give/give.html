@@ -5,15 +5,17 @@
       <div align="center"><img src="../assets/images/KidsCountGive.jpg" /></div>
 
       <br>
+      <br>
 
-      <p>Make a donation through PayPal. (You do not need a PayPal account to make the donation).</p>
+      <p>Make a donation through PayPal. (You do not need a PayPal account to make the donation).
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="RGTSPTQ9WRSYQ">
         <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form>
-      <br>
+      </form></p>
+      
+      <hr>
 
       <div class="col-lg-12">
         <div class="col-lg-3">
@@ -24,10 +26,13 @@
         </div>
       </div>
 
-      <br>
+      <hr>
       
-      <p>If you would like to learn more about how to impact a child's future please fill out his brief form and someone will be back with you soon:</p>
-      <form id="giveForm" ng-submit="sendDonationRequest()">
+      <div class="col-lg-6">
+        <p>If you would like to learn more about how to impact a child's future please fill out his brief form and someone will be back with you soon:</p>
+      </div>
+      <div class="col-lg-6">
+        <form id="giveForm" ng-submit="sendDonationRequest()">
           <input placeholder="Name" id="name" ng-model="request.name" type="text" class="validate" required>
           <input placeholder="Business Name" id="business_name" ng-model="request.businessName" type="text"  class="validate" required>
           <input placeholder="Email" id="email" ng-model="request.email" type="email" class="validate" required>
@@ -39,6 +44,7 @@
             </div>
           </div>
         </form>
+      </div>
     </div>
   </div>
 
